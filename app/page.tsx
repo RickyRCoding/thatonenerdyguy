@@ -12,10 +12,24 @@ export default function Home() {
       {/* if you want to add a game, just add a game Card. */}
       <div className="game-cards">
         <GameCard
-          title="Pi game"
+          title="Pi Game"
           description="How many digits of pi do you know?"
           color="#fcbd1c"
           acolor="#fcca4c"
+          gameLink="https://www.google.com/"
+        />
+        <GameCard
+          title="Periodic table Game"
+          description="There are 118 of them. You think you know all?"
+          color="#9d40ee"
+          acolor="#cc92ff"
+          gameLink="https://www.google.com/"
+        />
+        <GameCard
+          title="Capitals of the World"
+          description="You should always know where your going."
+          color="#418dec"
+          acolor="#60c0ff"
           gameLink="https://www.google.com/"
         />
       </div>
