@@ -4,8 +4,8 @@ export default function Home() {
     <>
       <h1 className="title">That One Nerdy Guy</h1>
       <p className="explenation">
-        So, you think that your smart. You think that your him; that one nerdy
-        guy.
+        So, you think that you&apos;re smart. You think that you&apos;re him;
+        that one nerdy guy.
         <br />I think I&apos;ll be the one to decide that ...
       </p>
       {/* add cards for each game (so far only two games; periodic table, Capitals of the world and pi) */}
@@ -34,7 +34,7 @@ export default function Home() {
         />
         <GameCard
           title="Capitals of the World"
-          description="You should always know where your going."
+          description="You should always know where you&apos;re going."
           color="#418dec"
           acolor="#60c0ff"
           gameLink="https://www.google.com/"
