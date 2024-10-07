@@ -16,9 +16,16 @@ export default function Home() {
           description="How many digits of pi do you know?"
           color="#fcbd1c"
           acolor="#fcca4c"
-          gameLink="https://www.google.com/"
+          gameLink="https://rickyrcoding.github.io/pigame/"
         />
         <GameCard
+          title="More to come..."
+          description="It's pretty hard to code these game."
+          color="#7f7f7f"
+          acolor="#a9a9a9"
+          gameLink="https://rickyrcoding.github.io/thatonenerdyguy/"
+        />
+        {/* <GameCard
           title="Periodic table Game"
           description="There are 118 of them. You think you know all?"
           color="#9d40ee"
@@ -31,7 +38,7 @@ export default function Home() {
           color="#418dec"
           acolor="#60c0ff"
           gameLink="https://www.google.com/"
-        />
+        /> */}
       </div>
     </>
   );
