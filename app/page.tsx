@@ -19,6 +19,13 @@ export default function Home() {
           gameLink="https://rickyrcoding.github.io/pigame/"
         />
         <GameCard
+          title="Capitals of the World Game"
+          description="Always good to know where your going."
+          color="#54b5ff"
+          acolor="#83c3ff"
+          gameLink="https://rickyrcoding.github.io/capitalsoftheworldgame/"
+        />
+        <GameCard
           title="More to come..."
           description="It's pretty hard to code these game."
           color="#7f7f7f"
