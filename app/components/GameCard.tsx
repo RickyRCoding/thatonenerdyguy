@@ -4,7 +4,7 @@ type GameCardProps = {
   title: string;
   description: string;
   color: string;
-  acolor: string;
+  bordercolor: string;
   gameLink: string;
 };
 
@@ -12,7 +12,7 @@ const GameCard = ({
   title,
   description,
   color,
-  acolor,
+  bordercolor,
   gameLink,
 }: GameCardProps) => {
   return (
@@ -20,8 +20,8 @@ const GameCard = ({
       <div
         className="card-content"
         style={{
-          border: `1rem solid ${color}`,
-          background: acolor,
+          border: `1rem solid ${bordercolor}`,
+          background: color,
         }}
       >
         <h2>{title}</h2>
