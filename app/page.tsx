@@ -27,10 +27,10 @@ export default function Home() {
         />
         <GameCard
           title="Math Game"
-          description="Do you know you're math basics?"
+          description="Do you know your math basics?"
           bordercolor="#6f9e7b"
           color="#8ebc99"
-          gameLink="https://rickyrcoding.github.io/mathgame/"
+          gameLink="https://rickyrcoding.github.io/mathquiz/"
         />
         <GameCard
           title="More to come..."
